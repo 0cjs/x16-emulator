@@ -1,20 +1,10 @@
 # Commander X16 Emulator
 
-This is an emulator for the Commander X16 computer system. It only depends on SDL2 and should compile on all modern operating systems.
-
-## Binaries & Compiling
-
 <a href="https://travis-ci.org/commanderx16/x16-emulator"><img alt="Travis (.org)" src="https://img.shields.io/travis/commanderx16/x16-emulator.svg?label=CI&logo=travis&logoColor=white&style=for-the-badge"></a>
 
-Binary releases for macOS, Windows and x86_64 Linux are available on the [releases page](https://github.com/commanderx16/x16-emulator/releases).
+This is an emulator for the Commander X16 computer system. It only depends on SDL2 and should compile on all modern operating systems.
 
-To build the emulator you will need the SDL2 development package along with the [cc65](https://cc65.github.io/) assembler.  On RedHat based nodes these are provided by the SDL2-devel and cc65 packages (yum install SDL2-devel cc65).
-
-Steps for compiling WebAssembly/HTML5 can be found [here](webassembly/WebAssembly.md).
-
-You will also need the system ROM (`rom.bin`) which you can build from the [X16 ROM source](https://github.com/commanderx16/x16-rom) or take from the *latest* binary release. (It is not always guaranteed though that the latest binary release is compatible with the current state of the emulator source.)
-
-Type `make` to build the source.
+Binary releases for macOS, Windows and x86_64 Linux are available on the [releases page](https://github.com/commanderx16/x16-emulator/releases). See [`BUILD.md`](BUILD.md) for more information on building this from source.
 
 ## Starting
 
