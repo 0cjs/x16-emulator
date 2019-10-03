@@ -364,7 +364,7 @@ F8: DOS &lt;doesn't work yet&gt;
 ### Release 16
 
 * Integrated monitor, start with SYS65280
-rom.bin is now 3*8 KB:
+rom.bin is now 3×8 KB:
 	* 0: BASIC (bank 0 at $C000)
 	* 1: KERNAL ($E000)
 	* 2: UTIL (bank 1 at $C000)
